@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Assets>
+    <Situation Id="JupiterStartingSituation">
+        <Orbit>
+            <SemiMajorAxis Km="80000" />
+            <Inclination Degrees="-60" />
+            <Eccentricity Value="0" />
+            <LongitudeOfAscendingNode Degrees="70" />
+            <ArgumentOfPeriapsis Degrees="0" />
+            <TimeAtPeriapsis Minutes="15" />
+        </Orbit>
+    </Situation>
+</Assets>

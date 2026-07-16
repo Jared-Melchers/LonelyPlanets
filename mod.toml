@@ -1,0 +1,35 @@
+# this file is the manifest definition for a mod (packed or unpacked)
+# each 'mod' needs to have one to tell the game how to deserialize
+
+# the 'id' of the mod is the folder name
+
+# the name for the mod
+name = "JupiterOnly"
+
+textureSizeCaps = [ 0, 8192, 4096, 2048, 1024, 512, 256, 128 ]
+supportedShadowMaps = [ 16384, 8192 , 4096 , 2048, 1024 ,512 ]
+supportedThumbnailSizes = [ 512, 256, 128, 64 ]
+simulationSpeeds = [ 0, 0.1, 1, 2, 4, 10, 30, 120, 600, 1200, 3600, 14400, 86400, 604800, 2592000, 7776000 ]
+
+# these xml definitions are loaded for planet LODs
+planetMeshes = [ "MeshCollections/DefaultMeshCollection.xml", "MeshCollections/EarthScaleMesh.xml", "MeshCollections/OceanMeshes.xml", "MeshCollections/AsteroidScaleMesh.xml", "MeshCollections/MarsScaleMesh.xml"]
+
+# used for random heightmaps
+planetRandomHeightmapCollections = ["TextureCollections/DefaultHeightmapCollection.xml"]
+
+# these xml definitions are loaded for celestial system templates
+systems = [ "SolSystem.xml", "SolSystemDense.xml", "EarthSystem.xml" , "EarthOnly.xml" , "JupiterOnly.xml"]
+
+# asset xml definitions allow generic pools of assets to be loaded for use through the project, such as meshes and textures
+
+assets = [ "CoreEditorTagsGameData.xml", "DefaultAssets.xml", "PartAssets.xml", "CorePropulsionAAssets.xml", "CorePropulsionAGameData.xml", "CorePropulsionBAssets.xml", "CorePropulsionBGameData.xml", "CorePassageAAssets.xml", "CorePassageAGameData.xml", "CoreCommandAAssets.xml", "CoreCommandAGameData.xml", "CoreServiceModuleAAssets.xml", "CoreServiceModuleAGameData.xml", "CoreFairingAAssets.xml", "CoreFairingAGameData.xml", "CoreFuelTankAAssets.xml", "CoreFuelTankAGameData.xml", "CoreStructuralAAssets.xml", "CoreStructuralAGameData.xml", "CoreIVASpaceAAssets.xml", "CoreIVASpaceAGameData.xml", "CoreIVAPropAAssets.xml", "CoreLandingAAssets.xml", "CoreLandingAGameData.xml", "CoreElectricalAAssets.xml", "CoreElectricalAGameData.xml", "CoreCouplingAAssets.xml", "CoreCouplingAGameData.xml", "ExhaustAssets.xml", "Gauges.xml", "Astronomicals.xml", "CharacterAssets.xml", "PartGameData.xml", "Substances.xml", "Combustion.xml", "Situations.xml", "Sounds.xml", "ParticleEmitterAssets.xml", "DistantGlintAssets.xml", "Languages.xml", "LonelySituations.xml"]
+
+# data to load for star instances
+starBinaries = [ "briars_binary_dimmer_better_99k_stars.bin" ]
+
+# fonts the player can select
+fonts = [ "JetBrainsMono-Regular.ttf" ]
+
+# camera map command is listed twice here as the first call sets the camera defaults.
+[console]
+onLoad = [ "simspeed 1", "camera map 2.88 0.47 3635076", "camera map 2.88 0.47 3635076", "camera orbit -4.83 -0.41 2.85"  ]
