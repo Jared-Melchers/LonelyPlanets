@@ -1,5 +1,5 @@
 # Lonely Planets
-If you do not have sufficient VRAM to load the full Solar System, now you can select individual planets to load.\n
+If you do not have sufficient VRAM to load the full Solar System, now you can select individual planets to load./n
 Currently only Jupiter is available but I plan to add Saturn as well soon.
 
 # Current Issues
