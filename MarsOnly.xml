@@ -26,8 +26,10 @@
     </UnscaledTextures>
 
     <LoadFromLibrary Id="Sol"/>
-    <LoadFromLibrary Id="Mars" Parent="Sol" HomeBody="true"/>
     <LoadFromLibrary Id="Luna" Parent="Sol"/>
+
+    <LoadFromLibrary Id="Mars" Parent="Sol" HomeBody="true"/>
+    <LoadFromLibrary Id="Phobos" Parent="Mars"/>
     
     <LoadVehicleFromLibrary Id="Gemini7" Parent="Mars">
         <SituationRef InstanceOf="MarsStartingSituation"/>
