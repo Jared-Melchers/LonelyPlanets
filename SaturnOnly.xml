@@ -27,8 +27,7 @@
 
     <LoadFromLibrary Id="Sol"/>
     <LoadFromLibrary Id="Saturn" Parent="Sol" HomeBody="true"/>
-    <LoadFromLibrary Id="Luna" Parent="Sol"/>
-    
+
     <LoadVehicleFromLibrary Id="Gemini7" Parent="Saturn">
         <SituationRef InstanceOf="SaturnStartingSituation"/>
         <Body2Cce X="0" Y="0" Z="0" />
