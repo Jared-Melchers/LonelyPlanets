@@ -1,9 +1,3 @@
-# this file is the manifest definition for a mod (packed or unpacked)
-# each 'mod' needs to have one to tell the game how to deserialize
-
-# the 'id' of the mod is the folder name
-
-# the name for the mod
 name = "LonelyPlanets"
 
 textureSizeCaps = [ 0, 8192, 4096, 2048, 1024, 512, 256, 128 ]
@@ -11,16 +5,13 @@ supportedShadowMaps = [ 16384, 8192 , 4096 , 2048, 1024 ,512 ]
 supportedThumbnailSizes = [ 512, 256, 128, 64 ]
 simulationSpeeds = [ 0, 0.1, 1, 2, 4, 10, 30, 120, 600, 1200, 3600, 14400, 86400, 604800, 2592000, 7776000 ]
 
-# these xml definitions are loaded for planet LODs
 planetMeshes = [ "MeshCollections/DefaultMeshCollection.xml", "MeshCollections/EarthScaleMesh.xml", "MeshCollections/OceanMeshes.xml", "MeshCollections/AsteroidScaleMesh.xml", "MeshCollections/MarsScaleMesh.xml"]
 
-# used for random heightmaps
 planetRandomHeightmapCollections = ["TextureCollections/DefaultHeightmapCollection.xml"]
 
-# these xml definitions are loaded for celestial system templates
-systems = [ "SolSystem.xml", "SolSystemDense.xml", "EarthSystem.xml" , "EarthOnly.xml" , "JupiterOnly.xml", "SaturnOnly.xml", "MarsOnly.xml"]
+systems = [ "SolSystem.xml", "SolSystemDense.xml", "EarthSystem.xml" , "EarthOnly.xml" , "JupiterOnly.xml", "SaturnOnly.xml"]
 
-# asset xml definitions allow generic pools of assets to be loaded for use through the project, such as meshes and textures
+# MarsOnly.xml has been removed due to it crashing on the most recent updates. VenusOnly.xml is disabled for similar reasons.
 
 assets = [ 
     "CoreEditorTagsGameData.xml",
