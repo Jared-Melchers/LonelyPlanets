@@ -18,11 +18,22 @@
             <Eccentricity Value="0" />
             <LongitudeOfAscendingNode Degrees="70" />
             <ArgumentOfPeriapsis Degrees="0" />
-            <TimeAtPeriapsis Minutes="15" />
+            <TimeAtPeriapsis Minutes="-90" />
         </Orbit>
     </Situation>
 
     <Situation Id="MarsStartingSituation">
+        <Orbit>
+            <SemiMajorAxis Km="5000" />
+            <Inclination Degrees="-60" />
+            <Eccentricity Value="0" />
+            <LongitudeOfAscendingNode Degrees="0" />
+            <ArgumentOfPeriapsis Degrees="0" />
+            <TimeAtPeriapsis Minutes="90" />
+        </Orbit>
+    </Situation>
+
+    <Situation Id="VenusStartingSituation">
         <Orbit>
             <SemiMajorAxis Km="5000" />
             <Inclination Degrees="-60" />
