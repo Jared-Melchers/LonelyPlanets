@@ -9,9 +9,9 @@ planetMeshes = [ "MeshCollections/DefaultMeshCollection.xml", "MeshCollections/E
 
 planetRandomHeightmapCollections = ["TextureCollections/DefaultHeightmapCollection.xml"]
 
-systems = [ "SolSystem.xml", "SolSystemDense.xml", "EarthSystem.xml" , "EarthOnly.xml" , "JupiterOnly.xml", "SaturnOnly.xml"]
+systems = [ "SolSystem.xml", "SolSystemDense.xml", "EarthSystem.xml" , "EarthOnly.xml" , "JupiterOnly.xml", "SaturnOnly.xml", "MarsOnly.xml"]
 
-# MarsOnly.xml has been removed due to it crashing on the most recent updates. VenusOnly.xml is disabled for similar reasons.
+# VenusOnly.xml is disabled currently as it does not work currently.
 
 assets = [ 
     "CoreEditorTagsGameData.xml",
@@ -60,7 +60,8 @@ assets = [
     "ParticleEmitterAssets.xml",
     "DistantGlintAssets.xml",
     "Languages.xml",
-    "LonelySituations.xml"]
+    "LonelySituations.xml",
+    "Dummy.xml"]
 
 # data to load for star instances
 starBinaries = [ "briars_binary_dimmer_better_99k_stars.bin" ]

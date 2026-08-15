@@ -26,6 +26,7 @@
     </UnscaledTextures>
 
     <LoadFromLibrary Id="Sol"/>
+    <LoadFromLibrary Id="Dummy" Parent="Sol"/>
     <LoadFromLibrary Id="Mars" Parent="Sol" HomeBody="true"/>
     
     <LoadVehicleFromLibrary Id="Gemini7" Parent="Mars">
