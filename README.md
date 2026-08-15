@@ -11,4 +11,4 @@ As mentioned above Venus does not currently load. In addition the vehicle creato
 # License
 © 2026 Jared Melchers  
   
-This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. For the full text of the License see LICENSE.txt
+This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. For the full text of the license see LICENSE.txt
