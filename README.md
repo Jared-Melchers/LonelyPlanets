@@ -9,10 +9,6 @@ Simply download the folder and extract it into ".../Documents/My Games/Kitten Sp
 As mentioned above Venus does not currently load. In addition the vehicle creator does not work in Jupiter, Saturn or Mars Only, the game must be loaded in 'Testing' mode (rather than 'Sandbox').
 
 # License
-Textures:  
-© 2026 RocketWerkz
-
-All other files:  
 © 2026 Jared Melchers  
   
-All files, except those in the "Textures" folder, are released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license. For the full text of the license see LICENSE.txt
+This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. For the full text of the License see LICENSE.txt
