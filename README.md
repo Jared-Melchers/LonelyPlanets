@@ -1,9 +1,9 @@
 # Lonely Planets
 If you do not have sufficient VRAM to load the full Solar System, now you can select individual planets to load.  
-Currently Jupiter, Saturn and Mars are available.
+Currently Jupiter and Saturn are available, Mars and Venus are in the files, but do not work in the current version of KSA.
 
 # Current Issues
-The vehicle creator does not work in Jupiter Only, the game must be loaded in 'Testing' mode (rather than 'Sandbox').
+As mentioned above Mars and Venus do not currently load. In addition the vehicle creator does not work in Jupiter or Saturn Only, the game must be loaded in 'Testing' mode (rather than 'Sandbox').
 
 # License
 © 2026 Jared Melchers  
