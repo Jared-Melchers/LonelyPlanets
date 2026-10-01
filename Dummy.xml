@@ -26,6 +26,23 @@
         </Clouds>
 <-->
 
+        <!-- KSA crashes on load if the system has no ocean at all (the ocean
+             renderer makes a 0-byte buffer). This tiny ocean, buried inside
+             the Sun with the Dummy, keeps that count above zero. -->
+        <Ocean>
+            <Level Km="0" />
+            <MeshCollection Id="OceanEarth"/>
+            <WindWaves>
+                <MinWindSpeed Value="0.0" />
+                <MaxWindSpeed Value="0.0" />
+            </WindWaves>
+            <GerstnerWaves>
+                <Count Value="0" />
+            </GerstnerWaves>
+        </Ocean>
+
+        <Height Id="Dummy_Height" Path="Textures/Dummy_Height.png" Category="TerrainHeight"/>
+
         <Terrain>
             <BiomeMaterials>
                 <BiomeMaterial Biome="Surface">
