@@ -1,3 +1,4 @@
-These texture files ship with KSA and have been moved here so the mod can address them reliably. 
-I do not own the rights to these files, they are only here temporarily until they can be removed.
-That is to say they are not released under the Creative Commons license that covers the rest of the mod.
+With the exeption of Tiny_Texture.ktx2, these texture files are not owned by me and therefore are not released under the Creative Commons license that covers the rest of the mod.
+They have been temporarily moved here so that the mod can reliably access them, and will be removed as soon as a better solution is found.
+
+
