@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Assets>
-    <AtmosphericBody Id="Dummy" Parent="Sol">
+    <Height Id="Dummy_Height" Path="Textures/Tiny_Texture.ktx2" Category="TerrainHeight">
+        <Minimum Km="0"/>
+        <Maximum Km="0"/>
+    </Height>
+    <AtmosphericBody Id="Dummy">
+        <ParentBody Ref="Sol"/>
         <Orbit DefinitionFrame="Ecliptic">
             <SemiMajorAxis Km="0.1" />
             <Inclination Degrees="0" />
@@ -14,10 +19,7 @@
         <Mass Yg="1" />
         <Color R="1" G="1" B="1" />
 
-        <Height Id="Dummy Height" Path="Textures/Tiny_Texture.ktx2" Category="TerrainHeight">
-            <Minimum Km="0"/>
-            <Maximum Km="0"/>
-        </Height>
+        <Height Ref="Dummy_Height"/>
 
 <!-->
         <Clouds>
@@ -32,9 +34,10 @@
 <-->
 
         <Ocean>
-            <MeshCollection Id="OceanEarth"/>            
+            <MeshCollection Ref="OceanEarth"/>            
         </Ocean>
 
+<!-->
         <Terrain>
             <BiomeMaterials>
                 <BiomeMaterial Biome="Surface">
@@ -54,5 +57,6 @@
                 </BiomeMaterial>
             </BiomeMaterials>
         </Terrain>
+-->
     </AtmosphericBody>
 </Assets>
