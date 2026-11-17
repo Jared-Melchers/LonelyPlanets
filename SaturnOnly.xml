@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Assets>
+<!-->
     <Vehicle Id="Gemini7" Modify="Patch">
         <ParentBody Ref="Saturn"/>
         <Situation Ref="SaturnStartingSituation"/>
         <Body2Cce X="0" Y="0" Z="0" />
         <BodyRates X="0" Y="0" Z="0" />
     </Vehicle>
+-->
 
     <System Id="SaturnOnly">
         <DisplayName Value="Saturn Only"/>
@@ -55,6 +57,5 @@
         <Vehicles>
             <Vehicle Ref="Gemini7"/>
         </Vehicles>
-
     </System>
 </Assets>

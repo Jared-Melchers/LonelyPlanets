@@ -55,6 +55,5 @@
         <Vehicles>
             <Vehicle Ref="Gemini7"/>
         </Vehicles>
-
     </System>
 </Assets>

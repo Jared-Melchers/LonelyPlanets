@@ -8,18 +8,8 @@ simulationSpeeds = [ 0, 0.1, 1, 2, 4, 10, 30, 120, 600, 1200, 3600, 14400, 86400
 # VenusOnly.xml is disabled currently as it does not work currently.
 assets = [
     "JupiterOnly.xml",
-    "SaturnOnly.xml",
-    "MarsOnly.xml",
     "LonelySituations.xml",
     "Dummy.xml"]
-
-
-
-# data to load for star instances
-starBinaries = [ "briars_binary_dimmer_better_99k_stars.bin" ]
-
-# fonts the player can select
-fonts = [ "JetBrainsMono-Regular.ttf" ]
 
 # camera map command is listed twice here as the first call sets the camera defaults.
 [console]
