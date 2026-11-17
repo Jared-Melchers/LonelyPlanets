@@ -1,12 +1,12 @@
 # Lonely Planets
 If you do not have sufficient VRAM to load the full Solar System, now you can select individual planets to load.  
-Currently Jupiter Saturn and Mars are available, Venus is in the files, but does not work in the current version of KSA.
+Currently only Jupiter is available, Saturn, Mars and Venus are in the files, but do not work in the current version of KSA.
 
 # How to Install
 Simply download the folder and place the extracted files into ".../Documents/My Games/Kitten Space Agency/mods/".
 
 # Current Issues
-As mentioned above Venus does not currently load. In addition the vehicle creator does not work in Jupiter, Saturn or Mars Only, the game must be loaded in 'Testing' mode (rather than 'Sandbox').
+As mentioned above Saturn, Mars and Venus do not currently load. In addition the vehicle creator does not work in Jupiter Only, the game must be loaded in 'Testing' mode (rather than 'Sandbox'). Conversely the mod interferes with 'Testing' mode for Earth Only. 
 
 # License
 © 2026 Jared Melchers  
